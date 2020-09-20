@@ -4,6 +4,8 @@
 
 ![screenshot of Scribe](./screenshots/Note_Taker.png)
 
+![Deployed Application](https://calm-caverns-57303.herokuapp.com/)
+
 ## Description
 A simple note taking app built with js and run on express. It allows a user to write, veiw and delte notes.
 
