@@ -47,6 +47,8 @@ module.exports = function(app){
         });
         console.log("updated notes are now: " + existingNotes);
         fs.writeFileSync('./db/db.json', JSON.stringify(existingNotes));
+
+        response.json(existingNotes);
     
     });
 }
