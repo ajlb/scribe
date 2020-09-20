@@ -33,6 +33,7 @@ module.exports = function(app){
         existingNotes.push(newNote);
         console.log("adding new note");
         fs.writeFileSync('./db/db.json', JSON.stringify(existingNotes));
+        response.json(newNote);
     });
     
     app.delete('/api/notes/:id', function (request, response) {
